@@ -34,7 +34,7 @@ y_pred = model.predict(X_test)
 print("\nClassification Report:")
 print(classification_report(y_test, y_pred))
 
-# ✅ Visualisasi fitur penting
+#Visualisasi fitur penting
 plot_importance(model)
 plt.tight_layout()
 plt.show()
